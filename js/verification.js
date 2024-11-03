@@ -1,7 +1,7 @@
 $("#login-button").click(function (event) {
   let userName = document.getElementById("userName").value;
   let pwd = document.getElementById("pwd").value;
-  if (userName == "Minh Hương" && pwd == "3110") {
+  if (userName == "Quỳnh Phương" && pwd == "3112003") {
     $("#h").text("wellcome！");
     event.preventDefault();
     $("form").fadeOut(500);
@@ -10,6 +10,6 @@ $("#login-button").click(function (event) {
       location.href = "BirthdayCake.html";
     }, 4000);
   } else {
-    alert("用户名或密码不正确！");
+    alert("Tên người dùng hoặc mật khẩu không đúng！");
   }
 });
